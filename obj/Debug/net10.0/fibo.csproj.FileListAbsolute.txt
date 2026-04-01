@@ -1,0 +1,15 @@
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\bin\Debug\net10.0\fibo.exe
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\bin\Debug\net10.0\fibo.deps.json
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\bin\Debug\net10.0\fibo.runtimeconfig.json
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\bin\Debug\net10.0\fibo.dll
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\bin\Debug\net10.0\fibo.pdb
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.AssemblyInfoInputs.cache
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.AssemblyInfo.cs
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.csproj.CoreCompileInputs.cache
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.sourcelink.json
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.dll
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\refint\fibo.dll
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.pdb
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\fibo.genruntimeconfig.cache
+C:\Users\killi\Documents\PUC\Projeto e Otimização de Algoritmos\6---problema-da-mochila-poa-mochila-1\obj\Debug\net10.0\ref\fibo.dll
