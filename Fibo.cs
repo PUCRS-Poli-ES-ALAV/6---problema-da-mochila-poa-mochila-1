@@ -100,18 +100,18 @@ public class Fibonacci
         instructions = 0;
 
         //  * teste todos para os inteiros 4, 8, 16, 32;
-        System.Console.WriteLine($"FiboRec(4) = {FiboRec(4)}");
-        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        iterations = 0;
-        instructions = 0;
-        System.Console.WriteLine($"Fibo(4) = {Fibo(4)}");
-        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        iterations = 0;
-        instructions = 0;
-        System.Console.WriteLine($"MemoizedFibo(4) = {MemoizedFibo(new int[5], 4)}");
-        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        iterations = 0;
-        instructions = 0;
+        // System.Console.WriteLine($"FiboRec(4) = {FiboRec(4)}");
+        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        // iterations = 0;
+        // instructions = 0;
+        // System.Console.WriteLine($"Fibo(4) = {Fibo(4)}");
+        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        // iterations = 0;
+        // instructions = 0;
+        // System.Console.WriteLine($"MemoizedFibo(4) = {MemoizedFibo(new int[5], 4)}");
+        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        // iterations = 0;
+        // instructions = 0;
 
         // System.Console.WriteLine($"FiboRec(8) = {FiboRec(8)}");
         // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
@@ -153,14 +153,14 @@ public class Fibonacci
         // instructions = 0;
 
         // //  * teste os dois últimos também para os inteiro 128, 1000 e 10.000.
-        // System.Console.WriteLine($"Fibo(128) = {Fibo(128)}");
-        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        // iterations = 0;
-        // instructions = 0;
-        // System.Console.WriteLine($"MemoizedFibo(128) = {MemoizedFibo(new int[129], 128)}");
-        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        // iterations = 0;
-        // instructions = 0;
+        System.Console.WriteLine($"Fibo(128) = {Fibo(128)}");
+        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        iterations = 0;
+        instructions = 0;
+        System.Console.WriteLine($"MemoizedFibo(128) = {MemoizedFibo(new int[129], 128)}");
+        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        iterations = 0;
+        instructions = 0;
 
         // System.Console.WriteLine($"Fibo(1000) = {Fibo(1000)}");
         // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
@@ -186,16 +186,16 @@ public class Fibonacci
 
         /*
         --------------------------------------------------------------------------------------------------------
-        | Algoritmo    |      4      |       8      |    16    |    32    |   128   |   1000   |    10000      |
+        | Algoritmo    |      4      |       8      |      16      |        32       |   128   |   1000   |    10000      |
         --------------------------------------------------------------------------------------------------------
-        | FiboRec      |Iterações:9  |              |          |          |         |          |               |
-        |              |Intruções:9  |              |          |          |         |          |               |
+        | FiboRec      |Iterações:9  |Iterações:67  |Iterações:3193|Iterações:7049155|         |          |               |
+        |              |Intruções:9  |Intruções:67  |Intruções:3193|Intruções:7049155|         |          |               |
         --------------------------------------------------------------------------------------------------------
-        | Fibo         |Iterações:3  |              |          |          |         |          |               |
-        |              |Intruções:7  |              |          |          |         |          |               |
+        | Fibo         |Iterações:3  |Iterações:7   |Iterações:15  |Iterações:31     |         |          |               |
+        |              |Intruções:7  |Intruções:11  |Intruções:19  |Intruções:35     |         |          |               |
         --------------------------------------------------------------------------------------------------------
-        | MemoizedFibo |Iterações:12 |              |          |          |         |          |               |
-        |              |Intruções:13 |              |          |          |         |          |               |
+        | MemoizedFibo |Iterações:12 |Iterações:24  |Iterações:48  |Iterações:96     |         |          |               |
+        |              |Intruções:13 |Intruções:25  |Intruções:49  |Intruções:97     |         |          |               |
         --------------------------------------------------------------------------------------------------------
         */
 
