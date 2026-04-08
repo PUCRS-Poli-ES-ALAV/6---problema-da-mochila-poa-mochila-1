@@ -153,14 +153,14 @@ public class Fibonacci
         // instructions = 0;
 
         // //  * teste os dois últimos também para os inteiro 128, 1000 e 10.000.
-        System.Console.WriteLine($"Fibo(128) = {Fibo(128)}");
-        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        iterations = 0;
-        instructions = 0;
-        System.Console.WriteLine($"MemoizedFibo(128) = {MemoizedFibo(new int[129], 128)}");
-        System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
-        iterations = 0;
-        instructions = 0;
+        // System.Console.WriteLine($"Fibo(128) = {Fibo(128)}");
+        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        // iterations = 0;
+        // instructions = 0;
+        // System.Console.WriteLine($"MemoizedFibo(128) = {MemoizedFibo(new int[129], 128)}");
+        // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
+        // iterations = 0;
+        // instructions = 0;
 
         // System.Console.WriteLine($"Fibo(1000) = {Fibo(1000)}");
         // System.Console.WriteLine($"Iterações: {iterations}, Instruções: {instructions}");
@@ -185,18 +185,18 @@ public class Fibonacci
         // as colunas os valores para testar e contabilizar.
 
         /*
-        --------------------------------------------------------------------------------------------------------
-        | Algoritmo    |      4      |       8      |      16      |        32       |   128   |   1000   |    10000      |
-        --------------------------------------------------------------------------------------------------------
-        | FiboRec      |Iterações:9  |Iterações:67  |Iterações:3193|Iterações:7049155|         |          |               |
-        |              |Intruções:9  |Intruções:67  |Intruções:3193|Intruções:7049155|         |          |               |
-        --------------------------------------------------------------------------------------------------------
-        | Fibo         |Iterações:3  |Iterações:7   |Iterações:15  |Iterações:31     |         |          |               |
-        |              |Intruções:7  |Intruções:11  |Intruções:19  |Intruções:35     |         |          |               |
-        --------------------------------------------------------------------------------------------------------
-        | MemoizedFibo |Iterações:12 |Iterações:24  |Iterações:48  |Iterações:96     |         |          |               |
-        |              |Intruções:13 |Intruções:25  |Intruções:49  |Intruções:97     |         |          |               |
-        --------------------------------------------------------------------------------------------------------
+        --------------------------------------------------------------------------------------------------------------------------------
+        | Algoritmo    |      4      |       8      |      16      |        32       |      128     |      1000      |      10000      |
+        --------------------------------------------------------------------------------------------------------------------------------
+        | FiboRec      |Iterações:9  |Iterações:67  |Iterações:3193|Iterações:7049155|              |                |                 |
+        |              |Intruções:9  |Intruções:67  |Intruções:3193|Intruções:7049155|              |                |                 |
+        --------------------------------------------------------------------------------------------------------------------------------
+        | Fibo         |Iterações:3  |Iterações:7   |Iterações:15  |Iterações:31     |Iterações:127 |Iterações:999   |Iterações:9999   |
+        |              |Intruções:7  |Intruções:11  |Intruções:19  |Intruções:35     |Instruções:131|Instruções:1003 |Instruções:10003 |
+        --------------------------------------------------------------------------------------------------------------------------------
+        | MemoizedFibo |Iterações:12 |Iterações:24  |Iterações:48  |Iterações:96     |Iterações:774 |Iterações:15266 |Iterações:164702 |
+        |              |Intruções:13 |Intruções:25  |Intruções:49  |Intruções:97     |Instruções:775|Instruções:15267|Instruções:164703|
+        --------------------------------------------------------------------------------------------------------------------------------
         */
 
     }
